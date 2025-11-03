@@ -1,0 +1,338 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: content-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #151414;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+.fast {
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+.div {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.heding {
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+}
+input.heding {
+  padding: 5px;
+  font-size: 14px;
+  color: white;
+  border: 1px solid #ccc;
+}
+
+/* About */
+.name{
+  color: #f5f5f5;
+  margin-top: 70px;
+  margin-left: 40px;
+}
+.name1{
+  color: aqua;
+  margin-top: 10px;
+  margin-left: 40px;
+  font-size: 30px;
+}
+.web{
+  color: white;
+  margin-top: 5px;
+  margin-left: 40px;
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+  text-transform: uppercase;
+  
+  
+}
+.page{
+  color: white;
+  margin-top: 10px;
+  margin-left: 40px;
+  font-style: italic;
+}
+.images{
+  width: 300px;
+  height: 300px;
+  margin-left: 950px;
+  position: absolute;
+  top: 100px;
+  border: 5px solid aqua;
+  animation: bordercolorAnim 2s infinite alternate;
+  border-radius: 50%;
+}
+@keyframes bordercolorAnim {
+  0%{border-color: aqua;}
+  25%{border-color: green;}
+  50%{border-color: white;}
+  75%{border-color: yellow;}
+  100%{border-color: red;}
+}
+.button{
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: aqua;
+  margin-top: 25px;
+  margin-left: 40px;
+}
+.check{
+  color: white;
+  margin-left: 20px;
+}
+.check>p{
+  display: inline;
+}
+.logo{
+  display: inline;
+  position: relative;
+  top: 15px;
+}
+.logo1{
+  width: 40px;
+  margin-left: 20px;
+  gap: 10px;
+  position: absolute;
+  margin-top: 36px;
+}
+.logo2{
+  width:40px;
+  margin-left: 70px;
+  margin-top: 36px;
+}
+.logo3{
+  width: 40px;
+  margin-left: 6px;
+}
+
+/* Services */
+.section{
+  position: relative;
+  background-color: black;
+  width: 100%;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+}
+.section1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.srvices{
+  color: white;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+.srvices1{
+  color: white;
+  margin-top: 10px;
+  margin-left: 40px;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.box{
+  width:250px;
+  height: 200px;
+  background-color: hsl(0, 1%, 16%);
+  border-radius: 10px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+    transition: transform 0.2s;
+}
+.box:hover{
+  transform: translateY(-5px);
+}
+  
+.boxfont{
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+.boximg{
+  width: 50px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+.boxpage{
+  color: white;
+  padding: 10px;
+  font-size: 12px;
+  text-align: center;
+}
+
+/* Projects */
+.projects-section{
+  padding: 50px 20px;
+}
+
+/* Skills */
+.skills-section {
+  background-color: #000;
+  padding: 50px 20px;
+  text-align: center;
+  
+}
+.skills-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 30px;
+}
+.skill-box {
+  background-color: hsl(0, 1%, 16%);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 220px;
+  text-align: left;
+  transition: transform 0.3s;
+}
+.skill-box:hover {
+  transform: translateY(-5px);
+}
+.skill-box h3 {
+  color: aqua;
+  margin-bottom: 10px;
+}
+.skill-box ul {
+  list-style: none;
+  padding: 0;
+}
+.skill-box ul li {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+/* Footer */
+footer{
+  width: 100%;
+  background-color: white;
+  margin-top: 50px;
+  border: 1px solid black;
+}  
+.profile-photo{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+.card-banner {
+  width: 1200px;
+  background: black;
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  position: relative;
+  margin: auto;
+}
+.photo-section {
+  flex: 0 0 130px;
+  margin-right: 30px;
+}
+.photo-placeholder {
+  width: 130px;
+  height: 130px;
+  border: 4px solid aqua;
+  border-radius: 50%;
+  background: #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info-section {
+  flex-grow: 1;
+}
+.info-section h1 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+.nname {
+  font-weight: bold;
+  color: aqua; 
+}
+.surname {
+  font-weight: bold;
+  color: aqua;
+}
+.contact-info {
+  list-style: none;
+  font-size: 13px;
+  color: white;
+}
+.contact-info li {
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+.contact-info .icon {
+  margin-right: 8px;
+  color: white;
+}
+.brand-section {
+  flex: 0 0 180px;
+  text-align: right;
+}
+.brand-logo {
+  font-size: 32px;
+  color: aqua;
+  margin-bottom: 5px;
+}
+.brand-section h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+.brand-section p {
+  font-size: 12px;
+  margin-bottom: 10px;
+  color: white;
+}
+.brand-bars {
+  display: flex;
+  justify-content: flex-end;
+  gap: 5px;
+}
+.brand-bars div {
+  width: 20px;
+  height: 8px;
+  background: aqua;
+  border-radius: 2px;
+}
+.card-banner::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 20px;
+  background: linear-gradient(90deg, aqua 50%, #433030 50%);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius:15px;
+}
+.brand{
+  color: aqua;
+}
